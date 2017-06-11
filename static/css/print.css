@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'samim';
+    src: url(../fonts/Samim.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'samim';
+    src: url(../fonts/Samim-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel.ttf) format("truetype");
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel-Bold.ttf) format("truetype");
+    font-weight:bold;
+}
+
+body {
+    font-family:'samim' !important;
+    font-size: 1.4em !important;
+    direction: rtl;
+}
+
+.alert, .sidebar {
+    visibility: hidden !important;
+}
+
+.alert {
+    height: 0px !important;
+}
